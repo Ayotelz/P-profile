@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.logo img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex; 
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+#personal-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+#academic-status {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 60px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+#academic-status img {
+    width: 100%;
+    height: 250px;          
+    object-fit: cover;      
+    border-radius: 8px;
+    margin-bottom: 20px;   
+    display: block;
+}
+
+#academic-status p {
+    margin-top: 0;
+}
+
+
+
+footer {
+    margin-top: 60px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
